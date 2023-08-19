@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-in {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(240,240,240);
+    height: 40vh;
+    width: 30%;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.one-one {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.one-one input[type="username"] {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 30px;
+    width: 80%;
+}
+
+.two-two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.two-two input[type="password"] {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 30px;
+    width: 80%;
+}
+
+.three-three {
+    display: flex;
+    width: 80%;
+    justify-content: flex-start;
+}
+
+.four-four button {
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    width: 100%;
+}
+
+.four-four {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+    
